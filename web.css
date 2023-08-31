@@ -36,16 +36,17 @@ body{
 .textbox input[type="text"]{
     height: 50px;
     width: 880px;
-    border-radius: 10px;
+    border-radius: 19px;
 }
 
 .searchbtn{
   height: 50px;  
   width: 50px;
-  border-radius: 10px;
+  border-radius: 19px;
   margin-left: 15px;
   background-color: rgb(46, 207, 91);
-  
+  position: relative;
+  right: 75px;
 }
 
 .searchbtn:hover{
@@ -113,11 +114,370 @@ body{
 .cat2{
     padding: 0px;
     
+    
 }
 #container{
     background-color: rgb(185, 219, 243);
 }
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 65%;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 30px;
+    background-size: cover;
+    background-position: center;
+}
+.videoapple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    margin-top: -50px;
+    /* background-color: #027ed0; */
+    /* width: 650px;
+    height: 490px; */
+}
 
+
+.smallbanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.smallbanner li{
+    display: inline-block;
+    padding: 5px;
+}
+
+.smallbanner li a{
+    width: 100%;
+    height: 100%;
+}
+
+.smallbanner li img{
+    border-radius: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.button li{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button li button{
+    text-decoration: none;
+    padding: 10px;
+    /* height: 100%;
+    align-items: center; */
+    display: block;
+    margin-right: 5px;
+    background: linear-gradient(to right, #027ed0, #077077);
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+}
+
+.button li button:hover{
+    background: linear-gradient(to right, #1ed479, #077077);
+}
+
+
+#category li:hover{
+    /* text-decoration: underline; */   
+    background: linear-gradient(to right, #027ed0, #077077);
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.signin:hover{
+    background-color: orange;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.8);
+    width: 1105px;
+    border-radius: 10px;
+    height: 260px;
+}
+
+.item1{
+    color: #333;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border: 1px solid black;
+    height: 219px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding: 10px;
+    margin: 2px;
+    background: linear-gradient(to right, #86e1d5, #17ccd8);
+}
+
+.sticker1{
+    position: absolute;
+    display: flex;
+    padding: 5px;
+    top: 0px;
+    right: 0px;
+}
+
+.item2{
+    color: #333;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border: 1px solid black;
+    height: 219px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin: 2px;
+    padding: 10px;
+    background: linear-gradient(to right, #86e1d5, #17ccd8);
+}
+
+.name a{
+    text-decoration: none;
+}
+
+.item3{
+    color: #333;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border: 1px solid black;
+    height: 219px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin: 2px;
+    padding: 10px;
+    background: linear-gradient(to right, #86e1d5, #17ccd8);
+}
+
+.item4{
+    color: #333;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border: 1px solid black;
+    height: 219px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin: 2px;
+    padding: 10px;
+    background: linear-gradient(to right, #86e1d5, #17ccd8);
+}
+.sticker2{
+    position: absolute;
+    display: flex ;
+    padding: 5px;
+    top: 0px;
+    right: 0px;
+}
+
+.saleproduct{
+    width: 150px;
+    height: 25px;
+    background: linear-gradient(to right, #0397fa, #ffffff);
+    margin-left: 13.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: solid 1px black;
+    border-radius: 10px;
+    font-size: large;
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+.buynowbtn{
+    padding-top: 10px;
+}
+.buynowbtn button{
+    padding: 1px 5px 1px 5px; /*Trên, phải, dưới, trái */
+    background: linear-gradient(to right, #00fff7, #e9eeef);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buynowbtn button:hover{
+    background: linear-gradient(to right, #e9eeef,  #0fe3e3);
+}
+
+.item1:hover{
+    background: linear-gradient(to right, #e9eeef,  #0fe3e3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.item2:hover{
+    background: linear-gradient(to right, #e9eeef,  #0fe3e3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.item3:hover{
+    background: linear-gradient(to right, #e9eeef,  #0fe3e3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.item4:hover{
+    background: linear-gradient(to right, #e9eeef,  #0fe3e3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.laptopContainer{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.8);
+    width: 1100px;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.laptop1{
+    height: 258px;
+    width: 239px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, #86e1d5, #17ccd8);
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.namelaptop1 a{
+    text-decoration: none;
+}
+
+.namelaptop1{
+    text-align: center;
+}
+
+.laptop1:hover{
+    background: linear-gradient(to right, #e9eeef,  #0fe3e3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.laptopbanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.laptopbanner img{
+    border-radius: 10px;
+}
+.name{
+    text-align: center;
+}
+
+.contact{
+    width: 40px;
+    height: 44px;
+    border-radius: 100px;
+    background-color: white;
+    position: fixed;
+    top: 80%;
+    right: 20px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.youtube{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background: linear-gradient(to right, #e9eeef,  #0fe3e3);
+    position: fixed;
+    top: 60%;
+    right: 15px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background: linear-gradient(to right, #e9eeef,  #0fe3e3);
+    position: fixed;
+    top: 70%;
+    right: 15px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact:hover{
+    cursor: pointer;
+    background: linear-gradient(to right, #eaebec, #ffffff);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transform: scale(1.2)
+}
+
+.phone:hover{
+    cursor: pointer;
+    background: linear-gradient(to right, #2fe2ef, #ffffff);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transform: scale(1.2)
+}
 
 
 
